@@ -1,0 +1,361 @@
+.head{
+    height: 80vh;
+    background-color: rgb(250, 238, 219);
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: papayawhip;
+
+
+}
+a{
+    text-decoration: none;
+}
+
+h2{
+    
+    color: rgb(16, 15, 15);
+    cursor: pointer;
+
+}
+
+.input{
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.inputs{
+    border: 1px solid lightgray;
+    width: 1594px;
+    height: 8vh;
+}
+
+.bt{
+    width: 253px;
+    height: 43px;
+    background: #011640;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s;
+    color: white;
+
+}
+
+.btn{
+    width: 103px;
+    height: 43px;
+    background: lightgray;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s;
+    color: white;
+
+    
+
+}
+
+.button{
+    margin-top: 36%;
+    float: left;
+    margin-left: 50%;
+    position: absolute;
+}
+.text{
+    float: left;
+    color:grey;
+    margin-left: 56%;
+    position: absolute;
+    margin-top: 18%;
+    font-size: 18px;
+    justify-content: space-between;
+    letter-spacing: 1;
+}
+
+.para{
+}
+ .para h1{
+    color: #011640;
+    font-size: 32px;
+    justify-content: space-between;
+    letter-spacing: 2;
+    
+ }
+
+ .boxe{
+    height: 74vh;
+    width: 450px;
+    border: 1px solid lightgray;
+    margin-top: 9%;
+    margin-left: 75px;
+    float: left;
+    
+ }
+
+ .boxes{
+    height: 35vh;
+    width: 450px;
+    border: 1px solid lightgray;
+    background-image: url(https://d37ukvrrv3in12.cloudfront.net/listings/e7c13d5a-23b9-468e-a963-8deb9aaf7afb/xl/0.jpg);
+    background-position: center;
+    background-size: cover;
+    
+ }
+
+ .boxess{
+    height: 20vh;
+    width: 450px;
+    border: 1px solid lightgray;
+ }
+
+ .boxesb{
+    height: 6vh;
+    width: 450px;
+    border: 1px solid lightgray;
+ }
+
+ .boxesc{
+    height: 6vh;
+    width: 450px;
+    border: 1px solid lightgray;
+ }
+
+ .boxesd{
+    height: 6vh;
+    width: 450px;
+    border: 1px solid lightgray;
+ }
+
+
+ .table{
+    height: 74vh;
+    width: 480px;
+    border: 1px solid lightgray;
+    margin-top: 9%;
+    margin-left: 20px;
+    float: left;
+    
+ }
+
+ .tables{
+    height: 35vh;
+    width: 480px;
+    border: 1px solid lightgray;
+    background-image: url(https://d37ukvrrv3in12.cloudfront.net/listings/2f0059e5-0c4c-4ba0-89e9-31ca11a107eb/xl/0.jpg);
+    background-position: center;
+    background-size: cover;
+    
+ }
+
+ .tabless{
+    height: 20vh;
+    width: 480px;
+    border: 1px solid lightgray;
+ }
+
+ .tablesb{
+    height: 6vh;
+    width: 480px;
+    border: 1px solid lightgray;
+ }
+
+ .tablesc{
+    height: 6vh;
+    width: 480px;
+    border: 1px solid lightgray;
+ }
+
+ .tablesd{
+    height: 6vh;
+    width: 480px;
+    border: 1px solid lightgray;
+ }
+
+
+ .cable{
+    height: 74vh;
+    width: 480px;
+    border: 1px solid lightgray;
+    margin-top: 9%;
+    margin-left:15px;
+    float: left;
+    
+ }
+
+ .cables{
+    height: 35vh;
+    width: 480px;
+    border: 1px solid lightgray;
+    background-image: url(https://d37ukvrrv3in12.cloudfront.net/listings/2f0059e5-0c4c-4ba0-89e9-31ca11a107eb/xl/2.jpg);
+    background-position: center;
+    background-size: cover;
+    
+ }
+
+ .cabless{
+    height: 20vh;
+    width: 480px;
+    border: 1px solid lightgray;
+ }
+
+ .cablesb{
+    height: 6vh;
+    width: 480px;
+    border: 1px solid lightgray;
+ }
+
+ .cablesc{
+    height: 6vh;
+    width: 480px;
+    border: 1px solid lightgray;
+ }
+
+ .cablesd{
+    height: 6vh;
+    width: 480px;
+    border: 1px solid lightgray;
+ }
+
+ .mable{
+   height: 74vh;
+   width: 450px;
+   border: 1px solid lightgray;
+   margin-top: 50%;
+   margin-left:75px;
+   float: left;
+   position: absolute;
+   
+}
+
+.mables{
+   height: 35vh;
+   width: 450px;
+   border: 1px solid lightgray;
+   background-image: url(https://d37ukvrrv3in12.cloudfront.net/listings/ade198b0-743a-4386-bc48-6fb1142903ea/xl/1.jpg);
+   background-position: center;
+   background-size: cover;
+   
+}
+
+.mabless{
+   height: 20vh;
+   width: 450px;
+   border: 1px solid lightgray;
+}
+
+.mablesb{
+   height: 6vh;
+   width: 450px;
+   border: 1px solid lightgray;
+}
+
+.mablesc{
+   height: 6vh;
+   width: 450px;
+   border: 1px solid lightgray;
+}
+
+.mablesd{
+   height: 5.9vh;
+   width: 450px;
+   border: 1px solid lightgray;
+}
+
+.pable{
+   height: 74vh;
+   width: 480px;
+   border: 1px solid lightgray;
+   margin-top: 50%;
+   margin-left: 35%;
+   position: absolute;
+   float: left;
+   
+}
+
+.pables{
+   height: 35vh;
+   width: 480px;
+   border: 1px solid lightgray;
+   background-image: url(https://d37ukvrrv3in12.cloudfront.net/listings/f16c1e80-2aa7-4a87-8548-65dffa33b14b/xl/0.jpg);
+   background-position: center;
+   background-size: cover;
+   
+}
+
+.pabless{
+   height: 20vh;
+   width: 480px;
+   border: 1px solid lightgray;
+}
+
+.pablesb{
+   height: 6vh;
+   width: 480px;
+   border: 1px solid lightgray;
+}
+
+.pablesc{
+   height: 6vh;
+   width: 480px;
+   border: 1px solid lightgray;
+}
+
+.pablesd{
+   height: 5.9vh;
+   width: 480px;
+   border: 1px solid lightgray;
+}
+
+.rable{
+   height: 74vh;
+   width: 480px;
+   border: 1px solid lightgray;
+   margin-top: 50%;
+   margin-left:67%;
+   float: left;
+   position: absolute;
+   
+}
+
+.rables{
+   height: 35vh;
+   width: 480px;
+   border: 1px solid lightgray;
+   background-image: url(https://thumbs.dreamstime.com/z/beautiful-exterior-home-pictures-new-home-design-images-modern-best-house-design-images-best-house-images-images-latest-172871922.jpg);
+   background-position: center;
+   background-size: cover;
+   
+}
+
+.rabless{
+   height: 20vh;
+   width: 480px;
+   border: 1px solid lightgray;
+}
+
+.rablesb{
+   height: 6vh;
+   width: 480px;
+   border: 1px solid lightgray;
+}
+
+.rablesc{
+   height: 6vh;
+   width: 480px;
+   border: 1px solid lightgray;
+}
+
+.rablesd{
+   height: 5.9vh;
+   width: 480px;
+   border: 1px solid lightgray;
+}

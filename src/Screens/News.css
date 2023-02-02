@@ -1,0 +1,203 @@
+.hicont{
+    background-color: black;
+}
+.hi{
+    border: 1px solid transparent;
+    height: 12vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/2-1-1536x967.jpg);
+
+    opacity: 0.5;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.card1{
+    border: 1px solid darkgray;
+    height: 94vh;
+    width: 90vh;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+.card2{
+    border: 1px solid darkgray;
+    height: 94vh;
+    width: 90vh;
+    margin-left: 2%;
+    margin-top: 4%;
+}
+
+.card3{
+    border: 1px solid darkgray;
+    height: 94vh;
+    width: 90vh;
+    margin-left: -92%;
+    margin-top: 54%;
+}
+
+.card4{
+    border: 1px solid darkgray;
+    height: 94vh;
+    width: 90vh;
+    margin-left: 2%;
+    margin-top: 54%;
+}
+
+.card5{
+    border: 1px solid darkgray;
+    height: 94vh;
+    width: 90vh;
+    margin-left: -92%;
+    margin-top: 104%;
+}
+
+.card6{
+    border: 1px solid darkgray;
+    height: 94vh;
+    width: 90vh;
+    margin-left: 2%;
+    margin-top: 104%;
+}
+
+.imag1{
+    border: 1px solid transparent;
+    height: 44vh;
+    width: 90vh;
+    background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/b-post-9-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.imag2{
+    border: 1px solid transparent;
+    height: 44vh;
+    width: 90vh;
+    background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/b-post-8-1-1536x967.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.imag3{
+    border: 1px solid transparent;
+    height: 44vh;
+    width: 90vh;
+    background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/b-post-7-1-1536x967.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.imag4{
+    border: 1px solid transparent;
+    height: 44vh;
+    width: 90vh;
+    background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/b-post-6-1-1536x967.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.imag5{
+    border: 1px solid transparent;
+    height: 44vh;
+    width: 90vh;
+    background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/b-post-5-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.imag6{
+    border: 1px solid transparent;
+    height: 44vh;
+    width: 90vh;
+    background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/b-post-3-1-1536x967.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.inner1{
+    border: 1px solid transparent;
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+    background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/riley-profile.jpg);
+    width: 10vh;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.inner2{
+    border: 1px solid transparent;
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+    background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/riley-profile.jpg);
+    width: 10vh;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.inner3{
+    border: 1px solid transparent;
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+    background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/riley-profile.jpg);
+    width: 10vh;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.inner4{
+    border: 1px solid transparent;
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+    background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/riley-profile.jpg);
+    width: 10vh;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.inner5{
+    border: 1px solid transparent;
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+    background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/riley-profile.jpg);
+    width: 10vh;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.inner6{
+    border: 1px solid transparent;
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+    background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/riley-profile.jpg);
+    width: 10vh;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.bat{
+    border: 1px solid #011640;
+    height: 7vh;
+    width: 19vh;
+    background-color: #011640;
+    margin-top: 24%;
+    margin-left: 6%;
+    border-radius: 7px;
+    color: white;
+}

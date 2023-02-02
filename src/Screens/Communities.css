@@ -1,0 +1,19 @@
+.communities1{
+    float: left;
+    margin-left: 2%;
+    border: 1px solid transparent;
+    box-shadow: 5px 10px 20px gray;
+    height: 70vh;
+    width: 84vh;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.com{
+    height: 50vh;
+    width: 84vh;
+    background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/la-jolla-1.jpg);
+    border: 1px solid transparent;
+    background-position: center;
+    background-size: cover;
+}
