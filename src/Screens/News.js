@@ -4,16 +4,44 @@ import './News.css';
 import { AiOutlineSearch } from "react-icons/ai"
 import { BiChevronDown } from "react-icons/bi"
 import { BiMessage } from "react-icons/bi"
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
+import { useState, useEffect } from "react";
+import axios from "axios";
+import { Services } from "./Services";
 
 
 export const News = () => {
+    const[email, setEmail] = useState("");
+    const [blogs, setBlogs] = useState([]);
+
+    useEffect(() => {
+        fetchData();
+
+    }, []);
+
+    const handleEmailChange = (event) => {
+        event.preventDefault();
+        setEmail(event.target.value);
+    };
+
+    console.log(blogs, "Blogs");
+
+
+    const fetchData = () => {
+        axios({
+            method: "Get",
+            url: " https://newsapi.org/v2/everything?q=Apple&from=2023-02-02&sortBy=popularity&apiKey=cfa389c114ca43b3b253dbb1a7b3dc02",
+        }).then((response)=>{
+            setBlogs(response.data.articles);
+        });
+    };
+
     return ( 
     <div>
         
         <Navigation />
         <div className="inputs" style={{backgroundColor: "papayawhip"}}>
-            <input className="input" type="search" name="" placeholder="Street, City, State or Zip " style={{position: "absolute", marginLeft: 42,top: 100, width: 340, height: 30, padding: 20,}}></input>
+            <input className="input" type="search" name="" placeholder="Email" onChange={(e)=>handleEmailChange(e)} style={{position: "absolute", marginLeft: 42,top: 100, width: 340, height: 30, padding: 20,}}></input>
             <AiOutlineSearch style={{color: "gray", fontSize: 15, position: "absolute", marginLeft: 43, top: 113,}}/>
 
             <input className="input" type="search" name="" placeholder="All Statuses " style={{position: "absolute", marginLeft: 400,top: 100, width: 240, height: 30, padding: 20,}}></input>
@@ -36,19 +64,9 @@ export const News = () => {
         </div>
         </div>
 
-        <div className="cards">
-            <div className="card1">
-                <div className="imag1"></div>
-                <div>
-                    <div className="inner1"></div>
-                    <h1 style={{fontSize: 32, fontWeight: 100, marginLeft: "20%", marginTop: "-12%",}}>New Development: The Crosby<br></br> Estates At Rancho Sante Fe</h1>
-                    <h2 style={{fontSize: 15, fontWeight: 100, marginLeft: "20%", color: "gray", marginTop: "-2%",}}>BY RILEY HARPER IN OUR BLOG</h2>
-                    <p1 style={{marginLeft: "3%", color: "gray", fontSize: 16, fontWeight: 100, position: "absolute"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ex mi. Morbi<br></br> erat felis, elementum eget odio venenatis, pretium congue ex. Nullam mauris<br></br> mi, blandit vitae ante commodo, dignissim vestibulum dolor. Ut id metus vel<br></br> lorem varius porttitor. Aliquam urna dolor, dapibus at tempus at, euismod quis<br></br> diam. Aenean non lacus arcu. Nam ligula […]</p1>
-                    <button className="bat"><a href="#" style={{color: "white"}}><Link to={'/News/Readmore'} target='_blank' style={{color: "white"}}>READ MORE</Link></a></button>
-                </div>
-            </div>
+
             
-            <div className="card2">
+            {/* <div className="card2">
             <div className="imag2"></div>
             <div>
                     <div className="inner2"></div>
@@ -101,9 +119,30 @@ export const News = () => {
                     <p1 style={{marginLeft: "3%", color: "gray", fontSize: 16, fontWeight: 100, position: "absolute"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut ex mi. Morbi<br></br> erat felis, elementum eget odio venenatis, pretium congue ex. Nullam mauris<br></br> mi, blandit vitae ante commodo, dignissim vestibulum dolor. Ut id metus vel<br></br> lorem varius porttitor. Aliquam urna dolor, dapibus at tempus at, euismod quis<br></br> diam. Aenean non lacus arcu. Nam ligula […]</p1>
                     <button className="bat"><a style={{color: "white"}}><Link to={'/News/Readmore'} target='_blank' style={{color: "white"}}>READ MORE</Link></a></button>
                 </div>
+            </div> */}
+            <div className="news-cards-container">
+
+              {blogs.map((item) => {
+                if (item.urlToImage !== null) {
+                    return (
+
+                        <Services
+                        urlimg={item.urlToImage}
+                        h1={item.title}
+                        h2={item.publishedAt
+                        }
+                        p1={item.content}
+                        />
+                    );
+                      }
+                })}
+                               
+
             </div>
+            
+            
 
         </div>
-    </div>
+    
     )
 }

@@ -11,6 +11,9 @@ import { Services } from './Screens/Service';
 import { AboutBlair } from './Screens/AboutBlair';
 import { Contact } from './Screens/Contact';
 import { Readmore } from './Screens/Readmore';
+import { Profile } from './Screens/Profile';
+import { Create } from './Screens/Create';
+import { Lost } from './Screens/Lost';
 
 
 function App() {
@@ -39,6 +42,18 @@ function App() {
       path: "/News/Readmore",
       element: <Readmore />
 
+    },
+    {
+      path: "/Profile",
+      element: <Profile />
+    },
+    {
+      path: "/Lost",
+      element: <Lost/>
+    },
+    {
+      path: "/Create",
+      element: <Create />
     },
     {
       path: "/Services",

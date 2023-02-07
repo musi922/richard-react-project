@@ -15,6 +15,7 @@
 .cards{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .card1{
@@ -25,15 +26,15 @@
     margin-top: 4%;
 }
 
-.card2{
+/* .card2{
     border: 1px solid darkgray;
     height: 94vh;
     width: 90vh;
     margin-left: 2%;
     margin-top: 4%;
-}
+} */
 
-.card3{
+/* .card3{
     border: 1px solid darkgray;
     height: 94vh;
     width: 90vh;
@@ -63,34 +64,34 @@
     width: 90vh;
     margin-left: 2%;
     margin-top: 104%;
-}
+} */
 
-.imag1{
+/* .imag1{
     border: 1px solid transparent;
     height: 44vh;
     width: 90vh;
     background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/b-post-9-1.jpg);
     background-position: center;
     background-size: cover;
-}
+} */
 
-.imag2{
+/* .imag2{
     border: 1px solid transparent;
     height: 44vh;
     width: 90vh;
     background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/b-post-8-1-1536x967.jpg);
     background-position: center;
     background-size: cover;
-}
+} */
 
-.imag3{
+/* .imag3{
     border: 1px solid transparent;
     height: 44vh;
     width: 90vh;
     background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/b-post-7-1-1536x967.jpg);
     background-position: center;
     background-size: cover;
-}
+} */
 
 .imag4{
     border: 1px solid transparent;
@@ -101,23 +102,23 @@
     background-size: cover;
 }
 
-.imag5{
+/* .imag5{
     border: 1px solid transparent;
     height: 44vh;
     width: 90vh;
     background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/b-post-5-1.jpg);
     background-position: center;
     background-size: cover;
-}
+} */
 
-.imag6{
+/* .imag6{
     border: 1px solid transparent;
     height: 44vh;
     width: 90vh;
     background-image: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/b-post-3-1-1536x967.jpg);
     background-position: center;
     background-size: cover;
-}
+} */
 
 .inner1{
     border: 1px solid transparent;
@@ -196,8 +197,19 @@
     height: 7vh;
     width: 19vh;
     background-color: #011640;
-    margin-top: 24%;
+    margin-top: 2%;
     margin-left: 6%;
     border-radius: 7px;
     color: white;
+    
 }
+
+.news-cards-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 70px;
+    
+    
+}
+

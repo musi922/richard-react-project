@@ -18,8 +18,9 @@ function Navigation () {
           <Link to={"/Contact"}><li>Contact</li></Link>
           {/* <NavLink to={"/mls"}><span>mls</span></NavLink> */}
           {/* <Link to="Properties"><span>our Properties</span></Link> */}
+          <div className="icon" id="popup"><Link to={"/Profile"} ><li><RiAccountCircleLine style={{color: "black", fontSize: 26}}/></li></Link></div>
         </ul>
-        <div className="icon"><RiAccountCircleLine /></div>
+
       </header>
    ) 
 }

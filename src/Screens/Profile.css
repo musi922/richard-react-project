@@ -1,0 +1,38 @@
+
+.port{
+    height: 100vh;
+    margin-top: -3%;
+    background-color: black;
+}
+
+
+
+.profile{
+    border: 1px solid transparent;
+    height: 159vh;
+    width: 42vh;
+    margin-left: 40%;
+    margin-top: -43.5%;
+    position: absolute;
+    background-color: white;
+    font-weight: 100;
+}
+
+.log{
+    margin-left: 5%;
+    font-weight: 100;
+}
+h1{
+    font-weight: 100;
+    font-size: 23px;
+    margin-top: 9%;
+}
+p1{
+    color: gray;
+    font-size: 18px;
+}
+
+h2{
+    font-weight: 100;
+    font-size: 20px;
+}
