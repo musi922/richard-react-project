@@ -11,9 +11,15 @@ import { Services } from './Screens/Service';
 import { AboutBlair } from './Screens/AboutBlair';
 import { Contact } from './Screens/Contact';
 import { Readmore } from './Screens/Readmore';
-import { Profile } from './Screens/Profile';
+import { Login } from './Screens/Profile';
 import { Create } from './Screens/Create';
 import { Lost } from './Screens/Lost';
+import { View } from './Screens/View';
+import { Dashboard } from './Screens/Dashboard';
+import { EditProfile } from './Screens/EditProfile';
+import { Dashboards } from './Screens/Dashboards';
+import { MyListings } from './Screens/MyListings';
+import { AddNew } from './Screens/AddNew';
 
 
 function App() {
@@ -23,12 +29,38 @@ function App() {
       element : <Homepage/>
     },
     {
+      path : "/Dashboard",
+      element : <Dashboard/>,
+      children: [
+        {
+        path : "/Dashboard/EditProfile",
+        element : <EditProfile/>,
+    },
+    {
+      path : "/Dashboard/dashboards",
+      element : <Dashboards/>
+    },
+    {
+      path : "/Dashboard/MyListings",
+      element : <MyListings/>
+    },
+    {
+      path : "/Dashboard/AddNew",
+      element : <AddNew/>
+    }
+  ]
+    },
+    {
       path: "/properties",
       element: <OurProperties/>
     },
     {
       path: "/Mlssearch",
       element: <Mlssearch/>
+    },
+    {
+      path: "/View",
+      element: <View/>
     },
     {
       path: "/Communities",
@@ -44,8 +76,8 @@ function App() {
 
     },
     {
-      path: "/Profile",
-      element: <Profile />
+      path: "/Login",
+      element: <Login />
     },
     {
       path: "/Lost",
@@ -69,16 +101,13 @@ function App() {
     }
 
 
+
   ])
   return (   
     <RouterProvider router = {router}/>
-    // <BrowserRouter>
-    // <Routes>
-    //   <Route path='/' element={<OurProperties/>} />
-    //   <Route path='/mls' element={<div><Navigation />This is mls</div>} />
-    // </Routes>
-    // </BrowserRouter>
+   
   );
+
 }
 
 export default App;

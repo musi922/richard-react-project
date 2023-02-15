@@ -19,7 +19,7 @@ export const Homepage = () => {
             <h5 style={{position: "absolute",top: 303, letterSpacing: 11, justifyContent: "spaceBetween"}}>LUXURY HOME</h5>
             <p1 style={{position: "absolute", top: 450, color: "gray", fontSize: 18, fontFamily: "inherit",}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d</p1>
             <p2 style={{position: "absolute", top: 475, color: "gray", fontSize: 18, fontFamily: "inherit",}}>eiusmod tempor incid the old familer olfre idunt ut labore ellt</p2>
-                <input className="input" type="search" name="" placeholder="Enter a Street, City, State, Zip or Keyword " style={{position: "absolute", top: 560, width: 450, height: 65,}}></input>
+                <input className="input" type="search" name="" placeholder="Enter a Street, City, State, Zip or Keyword " style={{position: "absolute", top: 560, width: 450, height: 65, marginLeft: "-2%"}}></input>
                 <button className="btnn"><a href="#"><AiOutlineSearch style={{color: "white", fontSize: 25,}}/></a></button>
 
         </div>

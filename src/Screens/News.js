@@ -37,7 +37,7 @@ export const News = () => {
     };
 
     return ( 
-    <div>
+    <div style={{width: "auto", overflow: "auto", height: "auto"}}>
         
         <Navigation />
         <div className="inputs" style={{backgroundColor: "papayawhip"}}>
@@ -52,6 +52,7 @@ export const News = () => {
             <BiChevronDown style={{color: "gray", fontSize: 15, position: "absolute", marginLeft: 1105, top: 113,}} />
             <button className="bt" style={{marginLeft: 1180, marginTop: 10, position: "absolute", }}><a href="#" style={{color: "white"}}>SEARCH</a></button>
             <button className="btn" style={{marginLeft: 1460, marginTop: 10, position: "absolute",}}><a href="#" style={{color: "gray"}}>MORE</a></button>
+            
 
             <div>
             <button className="button" style={{backgroundColor: "#011640", height: 58, marginLeft:1490, width: 54, border: 1, borderRadius: 100, position: "fixed"}}><a href="#"><BiMessage style={{color: "white", fontSize: 25, position: "fixed", marginLeft: -12,marginTop: -12}}/></a></button>

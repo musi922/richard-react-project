@@ -8,6 +8,8 @@ import { BsPlayCircle } from "react-icons/bs"
 import { AiTwotoneHome } from "react-icons/ai"
 import { MdFavoriteBorder } from "react-icons/md"
 import { MdOutlineAddBox } from "react-icons/md"
+import { Link } from "react-router-dom";
+
 
 
 export const OurProperties = () => {
@@ -76,7 +78,7 @@ export const OurProperties = () => {
                         <p2 style={{color: "#7A7A7A",}}>5528 La Crescenta<br></br>Rancho Santa Fe, CA 92067</p2>
                     </div>
                     <div style={{float: "left"}}>
-                    <button className="btn" style={{float: "left", marginLeft: "20%", top: "158%", position: "absolute",}}><a href="#" style={{color: "gray"}}>View</a></button>
+                    <button className="btn" style={{float: "left", marginLeft: "20%", top: "158%", position: "absolute",}}><Link to={'/View'}>View</Link></button>
                     </div>
                 </div>
                 <div className="boxesb">
@@ -129,7 +131,7 @@ export const OurProperties = () => {
                         <br></br><br></br>
                         <p2 style={{color: "#7A7A7A",}}>8052 Camino De Arriba<br></br>Rancho Santa Fe, CA 92067</p2>
                         <div style={{float: "left"}}>
-                    <button className="btn" style={{float: "left", marginLeft: "20%", top: "158%", position: "absolute",}}><a href="#" style={{color: "gray"}}>View</a></button>
+                    <button className="btn" style={{float: "left", marginLeft: "20%", top: "158%", position: "absolute",}}><Link to={'/View'}>View</Link></button>
                         
 
                     </div>
@@ -184,7 +186,7 @@ export const OurProperties = () => {
                         
                     </div>
                     <div style={{float: "left"}}>
-                    <button className="btn" style={{float: "left", marginLeft: "20%", top: "158%", position: "absolute",}}><a href="#" style={{color: "gray"}}>View</a></button>
+                    <button className="btn" style={{float: "left", marginLeft: "20%", top: "158%", position: "absolute",}}><Link to={'/View'}>View</Link></button>
                         
 
                     </div>
@@ -239,7 +241,7 @@ export const OurProperties = () => {
                         <p2 style={{color: "#7A7A7A",}}>12969 Guacamayo Ct<br></br>San Diego, CA 92128</p2>
                     </div>
                     <div style={{float: "left"}}>
-                    <button className="btn" style={{float: "left", marginLeft: "70%", top: "58%", position: "absolute",}}><a href="#" style={{color: "gray"}}>View</a></button>
+                    <button className="btn" style={{float: "left", marginLeft: "70%", top: "58%", position: "absolute",}}><Link to={'/View'}>View</Link></button>
                         
 
                     </div>
@@ -293,7 +295,7 @@ export const OurProperties = () => {
                         
                     </div>
                     <div style={{float: "left"}}>
-                    <button className="btn" style={{float: "left", marginLeft: "70%", top: "58%", position: "absolute",}}><a href="#" style={{color: "gray"}}>View</a></button>
+                    <button className="btn" style={{float: "left", marginLeft: "70%", top: "58%", position: "absolute",}}><a href="#" style={{color: "gray"}}><Link to={'/View'}>View</Link></a></button>
                         
 
                     </div>
@@ -346,7 +348,7 @@ export const OurProperties = () => {
 
                     </div>
                     <div style={{float: "left"}}>
-                    <button className="btn" style={{float: "left", marginLeft: "70%", top: "58%", position: "absolute",}}><a href="#" style={{color: "gray"}}>View</a></button>
+                    <button className="btn" style={{float: "left", marginLeft: "70%", top: "58%", position: "absolute",}}><Link to={'/View'}>View</Link></button>
                         
 
                     </div>

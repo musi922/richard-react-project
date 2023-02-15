@@ -1,0 +1,141 @@
+h1{
+    color: #144273;
+    font-size: 16px;
+    margin-top: 6%;
+    font-weight: bold;
+    margin-left: 6%;
+}
+
+.input{
+    height: 3vh;
+    width: 40vh;
+    margin-left: 6%;
+    margin-top: 3%;
+    padding: 7px;
+}
+
+.sort{
+    height: 6vh;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 20vh;
+    margin-left: 66%;
+    margin-top: -3%;
+    background-color: white;
+}
+
+.sorts{
+    height: 6vh;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 15vh;
+    margin-left: 80%;
+    margin-top: -4%;
+    background-color: rgb(50, 194, 242);
+}
+.boxs{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.boxs1{
+    height: 20vh;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 69vh;
+    margin-top: 2%;
+    background-color: white;
+    margin-left: 6%;
+}
+.boxs2{
+    height: 20vh;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 69vh;
+    margin-top: 2%;
+    background-color: white;
+    margin-left: 6%;
+}
+.boxs3{
+    height: 20vh;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 69vh;
+    margin-top: 2%;
+    background-color: white;
+    margin-left: 6%;
+}
+.boxs4{
+    height: 20vh;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 69vh;
+    margin-top: 2%;
+    background-color: white;
+    margin-left: 6%;
+}
+.boxs5{
+    height: 20vh;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 69vh;
+    margin-top: 2%;
+    background-color: white;
+    margin-left: 6%;
+}
+.boxs6{
+    height: 20vh;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 69vh;
+    margin-top: 2%;
+    background-color: white;
+    margin-left: 6%;
+}
+
+.inners1{
+    border: 1px solid transparent;
+    height: 20vh;
+    width: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.doc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.doc1{
+    border: 1px solid gray;
+    border-bottom: none;
+    border-top: none;
+    height: 6vh;
+    width: 41px;
+    margin-left: 74%;
+    margin-top: -2%;
+
+}
+.doc2{
+    border: 1px solid gray;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    height: 6vh;
+    width: 41px;
+    margin-left: 83%;
+    margin-top: -10%;
+
+}
+.doc3{
+    border: 1px solid gray;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 6vh;
+    width: 41px;
+    margin-left: 92%;
+    margin-top: -10%;
+
+}

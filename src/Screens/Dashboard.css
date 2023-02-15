@@ -1,0 +1,286 @@
+.parent{
+    display: flex;
+    
+    
+}
+.container1{
+    height: 100vh;
+    width: 20%;
+    background-color: white;
+    border-right: 1px solid rgb(245,247,251);
+    cursor: pointer;
+    position: fixed;
+}
+
+.container2{
+    height: 150vh;
+    width: 80%;
+    background-color: rgb(245,247,251);
+    margin-left:20%;
+}
+.container3{
+    height: 150vh;
+    width: 100%;
+    background-color: rgb(245,247,251);
+}
+h1{
+    color: #144273;
+    font-size: 16px;
+    margin-top: 6%;
+    font-weight: bold;
+    margin-left: 6%;
+}
+p{
+    color: #040f1b;
+    margin-left: 4%;
+}
+h{
+    font-size: 12;
+    color: blue;
+    font-weight: bold;
+    margin-left: 4%;
+}
+.cont{
+    margin-top: 18%;
+    display: flex;
+    flex-direction: row;
+}
+.first{
+    background-color: white;
+    border: 1px solid rgb(245,247,251);
+    height: 10vh;
+    width: 34vh;
+    margin-left: 6%;
+    margin-top: -14%;
+}
+
+.second{
+    background-color: white;
+    border: 1px solid rgb(245,247,251);
+    height: 10vh;
+    width: 34vh;
+    margin-left: 2%;
+    margin-top: -14%;
+}
+
+.three{
+    background-color: white;
+    border: 1px solid transparent;
+    height: 10vh;
+    width: 34vh;
+    margin-left: 2%;
+    margin-top: -14%;
+}
+.four{
+    background-color: white;
+    border: 1px solid rgb(245,247,251);
+    height: 10vh;
+    width: 34vh;
+    margin-top: -14%;
+    margin-left: 2%;
+}
+
+h2{
+    color: #144273;
+    font-size: 13px;
+    margin-top: -4%;
+    font-weight: bold;
+    margin-left: 6%;
+}
+
+.box1{
+    width: 58%;
+    height: 7vh;
+    background-color: white;
+    border: 1px solid transparent;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.box2{
+    width: 58%;
+    height: 7vh;
+    background-color: white;
+    border: 1px solid transparent;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.box3{
+    width: 58%;
+    height: 7vh;
+    background-color: white;
+    border: 1px solid transparent;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.box3:hover{
+    background-color: blue;
+    color: white;
+}
+p:hover{
+    color: white;
+}
+
+.box1:hover{
+    background-color: blue;
+    color: white;
+}
+
+.box2:hover{
+    background-color: blue;
+    color: white;
+}
+
+.remove:hover{
+    color: white;
+}
+
+.list1{
+    height: 5vh;
+    width: 3%;
+    background-color: rgb(74, 74, 248);
+    border-radius: 4px;
+    border: 1px solid blue;
+    text-align: center;
+    margin-top: -3.5%;
+    position: absolute;
+    margin-left: 13%;
+}
+
+.list2{
+    height: 5vh;
+    width: 3%;
+    background-color: rgb(74, 74, 248);
+    border-radius: 4px;
+    border: 1px solid blue;
+    text-align: center;
+    margin-top: -3.5%;
+    position: absolute;
+    margin-left: 13%;
+}
+
+.list3{
+    height: 5vh;
+    width: 3%;
+    background-color: rgb(74, 74, 248);
+    border-radius: 4px;
+    border: 1px solid blue;
+    text-align: center;
+    margin-top: -3.5%;
+    position: absolute;
+    margin-left: 13%;
+}
+
+.list4{
+    height: 5vh;
+    width: 3%;
+    background-color: rgb(74, 74, 248);
+    border-radius: 4px;
+    border: 1px solid blue;
+    text-align: center;
+    margin-top: -3.5%;
+    position: absolute;
+    margin-left: 13%;
+}
+
+.con1{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    height: 4vh;
+}
+.con2{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    height: 4vh;
+}
+.con3{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    height: 4vh;
+}
+.con4{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    height: 4vh;
+}
+.con5{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    height: 4vh;
+    color: rgb(1, 1, 46);
+}
+
+.cons1{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    height: 4vh;
+}
+
+.cons2{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    height: 4vh;
+    color: rgb(1, 1, 46);
+}
+.cons3{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    height: 4vh;
+    color: rgb(1, 1, 46);
+}
+.cons4{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    height: 4vh;
+    color: rgb(1, 1, 46);
+}
+.cons5{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    height: 4vh;
+    color: rgb(1, 1, 46);
+}
+.cons6{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    height: 20vh;
+}
+
+.icon1{
+    width: 9%;
+    height: 4vh;
+    border: 1px solid transparent;
+    margin-top: -11%;
+    margin-left: 6%;
+    
+    
+
+}
+
+.lists2{
+    height: 3vh;
+    width: 9%;
+    background-color: rgb(74, 74, 248);
+    border-radius: 4px;
+    border: 1px solid blue;
+    text-align: center;
+    margin-top: -8.8%;
+    position: absolute;
+    margin-left: 42%;
+
+}
+.lists3{
+    height: 3vh;
+    width: 9%;
+    background-color: rgb(74, 74, 248);
+    border-radius: 4px;
+    border: 1px solid blue;
+    text-align: center;
+    margin-top: -8.8%;
+    position: absolute;
+    margin-left: 38%;
+
+}
+

@@ -1,0 +1,142 @@
+.divs{
+    border: 1px solid transparent;
+    background-color: white;
+    border: 1px solid rgb(245,247,251);
+    height: 6vh;
+    width: 140vh;
+    margin-left: 6%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.div1{
+    border-right: 1px solid gray;
+    background-color: lightgray;
+    height: 6vh;
+    width: 10vh;
+
+}
+.div2{
+    border-right: 1px solid gray;
+    background-color: white;
+    height: 6vh;
+    width: 15vh;
+
+}
+
+.div3{
+    border-right: 1px solid gray;
+    background-color: white;
+    height: 6vh;
+    width: 15vh;
+
+}
+.div4{
+    border-right: 1px solid gray;
+    background-color: white;
+    height: 6vh;
+    width: 15vh;
+
+}
+.div5{
+    border-right: 1px solid gray;
+    background-color: white;
+    height: 6vh;
+    width: 15vh;
+
+}
+.div6{
+    border-right: 1px solid gray;
+    background-color: white;
+    height: 6vh;
+    width: 15vh;
+
+}
+.div7{
+    border-right: 1px solid gray;
+    background-color: white;
+    height: 6vh;
+    width: 15vh;
+
+}
+
+.cos{
+    border: 1px solid transparent;
+    background-color: white;
+    border: 1px solid rgb(245,247,251);
+    height: 34vh;
+    width: 140vh;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.cos1{
+    border: 1px solid gray;
+    background-color: rgb(245,247,251);
+    border: 1px solid rgb(245,247,251);
+    height: 5vh;
+    border-radius: 5px;
+    margin-left: 2.5%;
+    width: 36vh;
+    padding-left: 20px;
+}
+.cos2{
+    border: 1px solid gray;
+    background-color: rgb(245,247,251);
+    border: 1px solid rgb(245,247,251);
+    height: 5vh;
+    border-radius: 5px;
+    margin-left: 2.5%;
+    margin-top: 0.1%;
+    position: absolute;
+    width: 36vh;
+    padding-left: 20px;
+}
+.cos3{
+    border: 1px solid gray;
+    background-color: rgb(245,247,251);
+    border: 1px solid rgb(245,247,251);
+    height: 5vh;
+    border-radius: 5px;
+    width: 36vh;
+    margin-left: 44.5%;
+    margin-top: -2.5%;
+    position: absolute;
+    padding-left: 20px;
+
+}
+.cos4{
+    border: 1px solid gray;
+    background-color: rgb(245,247,251);
+    border: 1px solid rgb(245,247,251);
+    height: 5vh;
+    border-radius: 5px;
+    margin-left: 2.5%;
+    margin-top: 6%;
+    width: 36vh;
+    padding-left: 20px;
+}
+
+.cod{
+    border: 1px solid transparent;
+    background-color: white;
+    border: 1px solid rgb(245,247,251);
+    height: 57vh;
+    width: 140vh;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.cod1{
+    border: 1px solid gray;
+    background-color: rgb(245,247,251);
+    border: 1px solid rgb(245,247,251);
+    height: 5vh;
+    border-radius: 5px;
+    margin-left: 2.7%;
+    width: 36vh;
+    padding-left: 20px;
+}
+
+

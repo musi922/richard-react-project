@@ -5,7 +5,7 @@ import './Navigation.css';
 
 function Navigation () {
    return (
-    <header>
+    <header style={{height: "auto", width: "auto", overflow: "auto"}}>
         <h2 style={{marginLeft:23,fontWeight: "bold",fontSize: 33, color: "black", marginTop:23, fontFamily: "sans-serif"}}><Link to={"/"} style={{color: "black"}}>BLAIR OWENS</Link></h2>
         <ul>
           <Link to={"/"} ><li></li></Link>
@@ -18,7 +18,7 @@ function Navigation () {
           <Link to={"/Contact"}><li>Contact</li></Link>
           {/* <NavLink to={"/mls"}><span>mls</span></NavLink> */}
           {/* <Link to="Properties"><span>our Properties</span></Link> */}
-          <div className="icon" id="popup"><Link to={"/Profile"} ><li><RiAccountCircleLine style={{color: "black", fontSize: 26}}/></li></Link></div>
+          <div className="icon" id="popup"><Link to={"/Login"} ><li><RiAccountCircleLine style={{color: "black", fontSize: 26}}/></li></Link></div>
         </ul>
 
       </header>
