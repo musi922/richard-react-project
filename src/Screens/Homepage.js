@@ -19,7 +19,7 @@ export const Homepage = () => {
             <h5 style={{position: "absolute",top: 303, letterSpacing: 11, justifyContent: "spaceBetween"}}>LUXURY HOME</h5>
             <p1 style={{position: "absolute", top: 450, color: "gray", fontSize: 18, fontFamily: "inherit",}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed d</p1>
             <p2 style={{position: "absolute", top: 475, color: "gray", fontSize: 18, fontFamily: "inherit",}}>eiusmod tempor incid the old familer olfre idunt ut labore ellt</p2>
-                <input className="input" type="search" name="" placeholder="Enter a Street, City, State, Zip or Keyword " style={{position: "absolute", top: 560, width: 450, height: 65, marginLeft: "-2%"}}></input>
+                <input className="input" type="search" name="" placeholder="Enter a Street, City, State, Zip or Keyword " style={{position: "absolute", top: 511, width: 450, height: 65, marginLeft: "-1%"}}></input>
                 <button className="btnn"><a href="#"><AiOutlineSearch style={{color: "white", fontSize: 25,}}/></a></button>
 
         </div>
@@ -75,7 +75,7 @@ export const Homepage = () => {
             </div>
 
             <div className="container">
-                <div className="box1">
+                <div className="boxe1">
                     <h1>45 Years Of Experience</h1>
                     
                     <p1>
@@ -83,8 +83,8 @@ export const Homepage = () => {
                     </p1>
 
                 </div>
-
-                <div className="box2">
+ 
+                <div className="boxe2">
                     <h1>$125 Billion In Sales</h1>
                     <p1>
                     Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing elit. Proin<br></br> gravida tortor semper nibh vehicula,<br></br> in tempor urna dignissim.<br></br> Vestibulum ante ipsum primis in<br></br> faucibus orci luctus et ultrices.
@@ -92,43 +92,44 @@ export const Homepage = () => {
 
                 </div>
 
-                <div className="box3">
+                <div className="boxe3">
                     <h1>Tailormade End-To-End<br></br> Service</h1>
                     <p1>
                     Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing elit. Proin<br></br> gravida tortor semper nibh vehicula,<br></br> in tempor urna dignissim.<br></br> Vestibulum ante ipsum primis in<br></br> faucibus orci luctus et ultrices.
                     </p1>
-                    <div className="wrapper">
+                     <div className="wrappers">
                        <div className="sky">
-                          <TbBuildingSkyscraper style={{color: "white", left: "26%", fontSize: 65, position: "absolute", marginTop: "-5%", zIndex: 2,}}/>
+                          <TbBuildingSkyscraper style={{color: "white", left: "26%", fontSize: 65, position: "absolute", marginTop: "-15%", zIndex: 2,}}/>
                           <h2 style={{color: "white", left: "24%", zIndex: 2, fontSize: 32, fontWeight: 100}}>Top Rated Brokerage</h2>
                           <p2 style={{color: "white", left: "24%", position: "relative", zIndex: 2, fontSize: 22, fontWeight: 100}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin<br></br> gravida tortor semper nibh vehicula, in tempor urna dignissim.<br></br> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p2>
                        </div>
 
                        <div className="ski">
-                          <IoIosPeople style={{color: "white", fontSize: 65, position: "absolute", left: "1%", marginTop: "-5%", zIndex: 2,}}/>
+                          <IoIosPeople style={{color: "white", fontSize: 65, position: "absolute", left: "1%", marginTop: "-15%", zIndex: 2,}}/>
                           <h2 style={{color: "white", position: "relative", left: "-26%", zIndex: 2, fontSize: 32, fontWeight: 100}}>Top Rated Brokerage</h2>
                           <p2 style={{color: "white", marginLeft: "-2%", justifyContent: "spaceBetween", zIndex: 2, fontSize: 22, fontWeight: 100}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin<br></br> gravida tortor semper nibh vehicula, in tempor urna dignissim.<br></br> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p2>
                        </div>
 
                        <div className="ske">
-                          <AiOutlineHeart style={{color: "white", fontSize: 65, position: "absolute", left: "1%", marginTop: "-5%", zIndex: 2,}}/>
+                          <AiOutlineHeart style={{color: "white", fontSize: 65, position: "absolute", left: "1%", marginTop: "-15%", zIndex: 2,}}/>
                           <h2 style={{color: "white", position: "relative", left: "-26%", zIndex: 2, fontSize: 32, fontWeight: 100}}>Top Rated Brokerage</h2>
                           <p2 style={{color: "white", marginLeft: "-2%", justifyContent: "spaceBetween", zIndex: 2, fontSize: 22, fontWeight: 100}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin<br></br> gravida tortor semper nibh vehicula, in tempor urna dignissim.<br></br> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p2>
                        </div>
 
                        <div className="skys">
-                          <ImEarth style={{color: "white", left: "26%", fontSize: 65, position: "absolute", marginTop: "-5%", zIndex: 2,}}/>
+                          <ImEarth style={{color: "white", left: "26%", fontSize: 65, position: "absolute", marginTop: "-15%", zIndex: 2,}}/>
                           <h2 style={{color: "white", left: "24%", zIndex: 2, fontSize: 32, fontWeight: 100}}>Top Rated Brokerage</h2>
                           <p2 style={{color: "white", left: "24%", position: "relative", zIndex: 2, fontSize: 22, fontWeight: 100}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin<br></br> gravida tortor semper nibh vehicula, in tempor urna dignissim.<br></br> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices.</p2>
                        </div>
+                    
                     </div>
 
 
                 </div>
             </div>
                   
-        </div>
-        <div className="third">
+         </div>  
+     <div className="third">
             <h1 style={{color: "gray", fontSize: "20px", fontWeight: 100,}}>You're In Good Hands</h1>
             <p2>SELL YOUR PROPERTY<br></br> THROUGH BLAIR OWENS</p2>
 
@@ -149,7 +150,10 @@ export const Homepage = () => {
                 <div className="ric3"></div>
             </div>
         </div>
+        
+       
 
+       
         
 
     </div>

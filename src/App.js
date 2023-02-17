@@ -20,6 +20,7 @@ import { EditProfile } from './Screens/EditProfile';
 import { Dashboards } from './Screens/Dashboards';
 import { MyListings } from './Screens/MyListings';
 import { AddNew } from './Screens/AddNew';
+import { Propertys } from './Propertys';
 
 
 function App() {
@@ -47,6 +48,10 @@ function App() {
     {
       path : "/Dashboard/AddNew",
       element : <AddNew/>
+    },
+    {
+      path : "/Dashboard/propertys",
+      element : <Propertys/>
     }
   ]
     },

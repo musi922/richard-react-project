@@ -1,9 +1,11 @@
-header{
-    margin: 0;
-    padding: 0;
+headers{
+   margin: 0;
+   padding: auto;
     display: flex;
     flex-direction: row;
-    background: white;
+    background: papayawhip;
+    
+    
 
 
 }
@@ -299,32 +301,7 @@ ul li{
    
 }
 
-.box1{
-    border:1px solid transparent;
-    box-shadow: 1px 1px 6px gray;
-    height: 580px;
-    width: 510px;
-    justify-content: space-between;
-    text-align: center;
-    z-index: auto;
-    background-color: white;
-
-}
-
-.box1 h1{
-    color: navy;
-    font-weight: 100;
-    margin-top: 25%;
-}
-
-.box1 p1{
-    color: gray;
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: 25%;
-}
-
-.box2{
+.boxe1{
     border:1px solid transparent;
     box-shadow: 1px 1px 6px gray;
     margin-left: 3%;
@@ -333,25 +310,50 @@ ul li{
     justify-content: space-between;
     text-align: center;
     background-color: white;
-
+ 
 }
 
-.box2 p1{
-    color: gray;
-    font-size: 25px;
-    font-weight: 100;
-    margin-top: 25%;
-}
-.box2 h1{
+.boxe1 h1{
     color: navy;
     font-weight: 100;
     margin-top: 25%;
 }
 
-.box3{
+.boxe1 p1{
+    color: gray;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 25%;
+}
+
+ .boxe2{
     border:1px solid transparent;
     box-shadow: 1px 1px 6px gray;
-    margin-left: 2%;
+    margin-left: 3%;
+    height: 580px;
+    width: 510px;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white; 
+
+} 
+
+.boxe2 p1{
+    color: gray;
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 25%;
+}
+.boxe2 h1{
+    color: navy;
+    font-weight: 100;
+    margin-top: 25%;
+}
+
+.boxe3{
+    border:1px solid transparent;
+    box-shadow: 1px 1px 6px gray;
+    margin-left: 4%;
     height: 580px;
     width: 500px;
     justify-content: space-between;
@@ -360,25 +362,25 @@ ul li{
 
 }
 
-.box3 p1{
+.boxe3 p1{
     color: gray;
     font-size: 25px;
     font-weight: 100;
     margin-top: 25%;
 }
 
-.box3 h1{
+.boxe3 h1{
     color: navy;
     font-weight: 100;
     margin-top: 25%;
     
 }
 
-.wrapper{
-    /* margin-top: 55%; */
+.wrappers{
+  
     border: 1px solid transparent;
     height: 160vh;
-    /* width: 100%; */
+    
     background-color: #011640;
     margin-left: -400%;
     position: relative;

@@ -9,10 +9,10 @@
 
 .profile{
     border: 1px solid transparent;
-    height: 85vh;
+    height: 94vh;
     width: 42vh;
     margin-left: 40%;
-    margin-top: -42.5%;
+    margin-top: -46.5%;
     position: absolute;
     background-color: white;
 }
@@ -34,4 +34,9 @@ p1{
 h2{
     font-weight: 100;
     font-size: 20px;
+}
+
+.sinup{
+    border-radius: 6px;
+    text-align: center;
 }

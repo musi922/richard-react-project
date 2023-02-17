@@ -83,9 +83,17 @@ h{
 h2{
     color: #144273;
     font-size: 13px;
-    margin-top: -4%;
+    margin-top: -5%;
     font-weight: bold;
     margin-left: 6%;
+}
+.he h2{
+    color: #144273;
+    font-size: 13px;
+    top: 106%;
+    font-weight: bold;
+    margin-left: 6%;
+    position: absolute;
 }
 
 .box1{
@@ -94,7 +102,7 @@ h2{
     background-color: white;
     border: 1px solid transparent;
     margin-left: 6%;
-    margin-top: 2%;
+    margin-top: 50%;
 }
 
 .box2{
@@ -282,5 +290,15 @@ p:hover{
     position: absolute;
     margin-left: 38%;
 
+}
+
+.chart{
+    border: 1px solid transparent;
+    height: 65vh;
+    width: 105vh;
+    background-color: white;
+    margin-left: 26%;
+    margin-top: 16%;
+    position: absolute;
 }
 

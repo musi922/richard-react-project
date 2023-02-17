@@ -9,6 +9,7 @@ import { IoIosPeople } from "react-icons/io"
 import { BsCardList } from "react-icons/bs"
 import { AiOutlineBook } from "react-icons/ai"
 import { HiOutlineDocumentAdd } from "react-icons/hi"
+import { AiFillPropertySafety } from "react-icons/ai"
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
 
 
@@ -28,6 +29,12 @@ export const Dashboard = ()=> {
                     <NavLink to="/Dashboard/dashboards"><h1 style={{marginLeft: "20%", color: "rgb(1, 1, 46)", fontSize: 13}}>Dashboard</h1></NavLink>
                     <div className="icon1">
                         <TbArrowWaveRightUp style={{color: "blue", fontSize: 22, marginTop: "20%"}}/>
+                    </div>
+                </div>
+                <div className="con2">
+                    <NavLink to="/Dashboard/propertys"><h1 style={{marginLeft: "20%", color: "rgb(1, 1, 46)", fontSize: 13}}>OurProperties</h1></NavLink>
+                    <div className="icon1">
+                        <AiFillPropertySafety style={{color: "blue", fontSize: 22, marginTop: "20%"}}/>
                     </div>
                 </div>
                 <div className="con3">

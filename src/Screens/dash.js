@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import './MyListings.css'
 import {TiLocation } from "react-icons/ti"
 import { AiFillStar } from "react-icons/ai"
@@ -6,14 +6,31 @@ import { AiFillEye } from "react-icons/ai"
 import {FaRegEdit } from "react-icons/fa"
 import { MdOutlineDomainDisabled } from "react-icons/md"
 import { RiDeleteBinLine } from "react-icons/ri"
+import { Delete } from "./Delete";
 
 export const Dash = (props) => {
+    const [isDeleting, setisDeleting] = useState(false)
+    const [posts, setposts] = useState([]);
+
+    const handleDelete = () => {
+        setisDeleting(true);
+        Delete(props.id)
+        .then(() => {
+            console.log("Delete");
+        })
+        .catch((error) => {
+            console.error(error)
+        })
+        .finally(() => {
+            setisDeleting(false);
+        });
+    }
     return(
         <div>
         <div className="boxs" style={{marginTop:"2%", marginLeft: "8%"}}>
                 <div className="boxs1">
                     <div>
-                        <img src={props.url} style={{border: "1px solid transparent",
+                        <img src={props.image} style={{border: "1px solid transparent",
                                                      height: "20vh",
                                                      width: "20vh",
                                                      backgroundPosition: "center",
@@ -24,7 +41,7 @@ export const Dash = (props) => {
                     <div>
                     <p style={{color: "rgb(1, 1, 105)", fontWeight: "bold", fontSize: 13, marginLeft: "39%", marginTop: "-28%"}}>{props.tittle}</p>
                     <h1 style={{color: "rgb(12, 5, 90)", fontWeight: "bold", fontSize: 12, marginLeft: "42%", marginTop: "-1%"}}>{props.head}</h1>
-                    <TiLocation style={{color: "blue", fontWeight: "bold", fontSize: 17, marginLeft: "11.4%", marginTop: "-1.6%", position: "absolute"}}/>
+                    <TiLocation style={{color: "blue", fontWeight: "bold", fontSize: 17, marginLeft: "10.4%", marginTop: "-1.6%", position: "absolute"}}/>
                     <AiFillStar style={{fontWeight: "bold", color: "#fad505", fontSize: 17, marginLeft: "11.4%", marginTop: "0.4%", position: "absolute"}}>{props.icon}</AiFillStar>
                     <AiFillStar style={{fontWeight: "bold", color: "#fad505", fontSize: 17, marginLeft: "12.4%", marginTop: "0.4%", position: "absolute"}}>{props.icon}</AiFillStar>
                     <AiFillStar style={{fontWeight: "bold", color: "#fad505", fontSize: 17, marginLeft: "13.4%", marginTop: "0.4%", position: "absolute"}}>{props.icon}</AiFillStar>
@@ -45,7 +62,7 @@ export const Dash = (props) => {
                     
                     </div>
                     <div className="doc3">
-                    <RiDeleteBinLine style={{color: "blue", marginLeft: "32%", marginTop: "40%"}}/>
+                    <RiDeleteBinLine style={{color: "blue", marginLeft: "32%", marginTop: "40%"}} onClick={handleDelete}/>
                     </div>
                     </div>
                     </div>

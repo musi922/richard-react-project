@@ -1,6 +1,6 @@
 
 .ports{
-    height: 40vh;
+    height: 140vh;
     margin-top: -3%;
     background-color: black;
 }
@@ -18,17 +18,22 @@
     font-weight: 100;
 }
 
-.log{
+.logs{
     margin-left: 5%;
+    margin-top: -180%;
     font-weight: 100;
+    background: white;
+    height: 45vh;
+    width: 54vh;
+    text-align: center;
 }
 h1{
     font-weight: 100;
     font-size: 23px;
-    margin-top: 9%;
+    margin-top: 12%;
 }
 p1{
-    color: gray;
+    color: black;
     font-size: 18px;
 }
 

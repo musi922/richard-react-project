@@ -26,6 +26,7 @@ import { useSelector } from "react-redux";
         useEffect(() => {
           if (isLoggedIn) {
             console.log("Here");
+            
             navigate("/Dashboard");
           }
         }, [isLoggedIn]);
@@ -37,7 +38,7 @@ import { useSelector } from "react-redux";
         const handleLogin = () => {
           dispatch(
             loginUser({
-              email: userEmail,
+              username: userEmail,
               password: userPassword,
             })
           );

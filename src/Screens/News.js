@@ -40,7 +40,7 @@ export const News = () => {
     <div style={{width: "auto", overflow: "auto", height: "auto"}}>
         
         <Navigation />
-        <div className="inputs" style={{backgroundColor: "papayawhip"}}>
+        <div className="inputs" style={{backgroundColor: "papayawhip",marginTop: "2.2%"}}>
             <input className="input" type="search" name="" placeholder="Email" onChange={(e)=>handleEmailChange(e)} style={{position: "absolute", marginLeft: 42,top: 100, width: 340, height: 30, padding: 20,}}></input>
             <AiOutlineSearch style={{color: "gray", fontSize: 15, position: "absolute", marginLeft: 43, top: 113,}}/>
 

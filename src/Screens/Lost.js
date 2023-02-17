@@ -19,15 +19,16 @@ export const Lost = () => {
     <div>
         <div className="ports">
                <div className="profile">
+               <img src={img2} style={{marginTop: "192%", marginLeft: "-192%",  opacity: "0.2",}}/>
 
-                <div className="log">
-                <h1>Lost Password?</h1>
-                <Link to={"/News"}><IoMdClose style={{marginLeft: "84%", marginTop: "-18%", fontSize: "22px", cursor: "pointer", position: "absolute"}}/></Link>
+                <div className="logs" style={{background: "white",opacity: "none"}}>
+                <h1 style={{marginTop: "4%"}}>Lost Password?</h1>
+                <Link to={"/News"}><IoMdClose style={{marginLeft: "84%", marginTop: "-10%", fontSize: "22px", cursor: "pointer", position: "absolute"}}/></Link>
                 
                 <p1>Enter your email address and we'll<br></br> send you a link you can use to pick<br></br> a new password.</p1>
                 <br></br>
-                <h2 style={{color: "darkgray"}}>Username or Email</h2>
-                <input className="input" type="search" name=""  style={{ width: 280, height: 30, padding: 20, marginTop: 10, marginLeft: 2}}></input><br></br><br></br>
+                <h2 style={{color: "black", marginTop: "2%"}}>Username or Email</h2>
+                <input className="inputs" type="text" name=""  style={{ width: 280, height: 30, padding: 20, marginTop: 10, marginLeft: 2, color: "black"}}></input><br></br><br></br>
                 <button className="bt" style={{height: "6vh", width: 190,}}><a href="#" style={{color: "white", fontSize: 12,}}>GET NEW PASSWORD</a></button>
                 
              </div>   

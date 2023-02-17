@@ -122,8 +122,8 @@
     border: 1px solid transparent;
     background-color: white;
     border: 1px solid rgb(245,247,251);
-    height: 57vh;
-    width: 140vh;
+    height: 92vh;
+    width: 145vh;
     margin-left: 6%;
     margin-top: 2%;
 }
@@ -138,5 +138,63 @@
     width: 36vh;
     padding-left: 20px;
 }
+.cod5{
+    border: 1px solid gray;
+    background-color: rgb(245,247,251);
+    border: 1px solid rgb(245,247,251);
+    height: 5vh;
+    border-radius: 5px;
+    margin-left: 33%;
+    width: 36vh;
+    padding-left: 20px;
+}
+.cod6{
+    border: 1px solid gray;
+    background-color: rgb(245,247,251);
+    border: 1px solid rgb(245,247,251);
+    height: 5vh;
+    border-radius: 5px;
+    margin-left: 63%;
+    width: 36vh;
+    padding-left: 20px;
+}
 
+
+.cos5{
+    border: 1px solid gray;
+    background-color: rgb(245,247,251);
+    border: 1px solid rgb(245,247,251);
+    height: 5vh;
+    border-radius: 5px;
+    margin-left: 22.5%;
+    margin-top: -2.6%;
+    position: absolute;
+    width: 36vh;
+    padding-left: 20px;
+}
+
+.butto{
+    background-color: #144273;
+    height: 8vh;
+    width: 20vh;
+    font-size: 14px;
+    color: white;
+    margin-top: 4%;
+    
+    margin-left: 5%;
+    border: 1px solid transparent;
+    border-radius: 9px;
+}
+
+.imagese{
+    border:1px solid transparent;
+    box-shadow: 1px 1px 6px red;
+    margin-left: 3%;
+    margin-top: -50%;
+    height:12vh;
+    width: 310px;
+    
+
+    background-color: #00ff1f;
+}
 
